@@ -1,0 +1,58 @@
+.heading{
+    background-color: #DE5D83;
+    font-size: 1cm;
+    border-style: solid;
+    border-color: #D4AF37;
+border-radius: 3em;
+}
+body{
+background-color: #e09c92;
+}
+.image{
+border-radius: 2cm;
+}
+.info{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-style: double;
+    border-width: 0.2cm;
+    border-radius: 1cm;
+    margin:1cm;
+    padding:0.5cm;
+    background-color: #fcbacb;
+    border-color: #da1884;
+
+} 
+.image{
+    border-style: solid;
+    border-color: #DE5D83;
+}
+.gamemessage{
+    text-align: center;
+    text-decoration: underline;
+}
+.allgames{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    flex-basis: 100%;
+    border-style: double;
+    background-color: #fcbacb;
+    border-color: #da1884;
+    border-width:0.2cm;
+    margin:1cm;
+    border-radius: 1cm;
+
+}
+.eachgame{
+    flex-basis: 30%;
+    margin:1.5em;
+    margin-left: 2cm;
+}
+p{
+  margin-left: 100px;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: bold;
+}
